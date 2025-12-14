@@ -3,28 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Lyora</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
     <style>
         body {
-            background-color: #0f172a;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #020617, #0f172a);
             color: #e5e7eb;
-            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 100px 20px;
             text-align: center;
-            padding-top: 100px;
         }
+
         h1 {
-            font-size: 48px;
+            font-size: 56px;
             margin-bottom: 10px;
+            letter-spacing: 2px;
         }
-        p {
+
+        .subtitle {
             font-size: 18px;
             opacity: 0.8;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            margin-bottom: 40px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .card p {
+            font-size: 16px;
+            line-height: 1.7;
+            opacity: 0.9;
+        }
+
+        footer {
+            opacity: 0.4;
+            font-size: 14px;
+            margin-top: 60px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Lyora</h1>
-    <p>Bu Lyora sitesidir.</p>
+    <div class="container">
+        <h1>Lyora</h1>
+        <div class="subtitle">Kişisel web sitesi</div>
+
+        <div class="card">
+            <h2>Hakkımda</h2>
+            <p>
+                Ben Lyora.  
+                Basit, sade ve modern web siteleri tasarlıyorum.  
+                Öğrenmeye açık, yaratıcı ve gelişmeye odaklıyım.
+            </p>
+        </div>
+
+        <footer>
+            © 2025 Lyora
+        </footer>
+    </div>
 
 </body>
 </html>
